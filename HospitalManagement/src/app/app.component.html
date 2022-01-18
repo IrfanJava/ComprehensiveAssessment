@@ -1,0 +1,87 @@
+<div class="container-fluid">
+  <h1 class="text-center"> {{title}} </h1>
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark" style="background-color:#DCDCDC">
+    <ul class = "navbar-nav">
+        <li class = "navbar-nav pull-left">
+            <a routerLink="doctors" routerLinkActive="active" class="nav-link" class="btn btn-primary active" 
+            role="button">Doctor List</a>
+        </li>
+        <li class = "navbar-nav pull-left">
+            <a routerLink="create-doctor" routerLinkActive="active" class="nav-link" class="btn btn-primary active" 
+            role="button">Add Doctor</a>
+        </li>
+        <li class = "navbar-nav pull-right">
+          <a routerLink="patients" routerLinkActive="active" class="nav-link" class="btn btn-primary active" 
+          role="button">Patient List</a>
+      </li>
+      <li class = "navbar-nav pull-right">
+          <a routerLink="create-patient" routerLinkActive="active" class="nav-link" class="btn btn-primary active" 
+          role="button">Add Patient</a>
+      </li>
+    </ul>
+  </nav>
+  <div class = "container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+<footer class="page-footer font-small blue pt-4">
+
+
+  <div class="container-fluid text-center text-md-left">
+
+    <div class="row">
+
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <h5 class="text-uppercase">This life is a hospital in which every patient is possessed with a desire to change his bed. </h5>
+        <h3>We Pray for Your Health</h3>
+
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-3">
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled" id="first">
+          <li>
+            <a href="#!">Advance Medical Science</a>
+          </li>
+          <li>
+            <a href="#!">Robotic Surgery</a>
+          </li>
+          <li>
+            <a href="#!">Organ Transplantation</a>
+          </li>
+          <li>
+            <a href="#!">Vaccination</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled" id="second">
+          <li>
+            <a href="#!">Physiotherapy</a>
+          </li>
+          <li>
+            <a href="#!">Pharmacy</a>
+          </li>
+          <li>
+            <a href="#!">Emergency</a>
+          </li>
+          <li>
+            <a href="#!">Laser Treatment</a>
+          </li>
+        </ul>
+
+      </div>
+
+
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3" id="third">© 2021 Copyright:
+    <a href="#!"> Hospital.com</a>
+  </div>
+</footer>

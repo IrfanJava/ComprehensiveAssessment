@@ -1,0 +1,32 @@
+{
+  "signupUser": [
+    {
+      "fullname": "Mohamed Irfan N",
+      "email": "irfan123@gmail.com",
+      "password": "1234567",
+      "mobile": 7829391211,
+      "id": 1
+    },
+    {
+      "fullname": "S Karthikeyan",
+      "email": "sk123@gmail.com",
+      "password": "12345678",
+      "mobile": 8829329192,
+      "id": 2
+    },
+    {
+      "fullname": "Javeed",
+      "email": "javeed123@gmail.com",
+      "password": "1234567",
+      "mobile": 9092423013,
+      "id": 3
+    },
+    {
+      "fullname": "Ayushi Singh",
+      "email": "ayushi123@gmail.com",
+      "password": "1234567",
+      "mobile": 7384829211,
+      "id": 4
+    }
+  ]
+}

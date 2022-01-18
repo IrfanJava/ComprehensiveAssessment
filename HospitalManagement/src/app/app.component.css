@@ -1,0 +1,21 @@
+.navbar navbar-expand-sm bg-primary navbar-dark{
+    color: aquamarine;
+    background-color: #235833;
+
+}
+.text-center{
+    color:greenyellow;
+    background-color:  #008080;
+}
+/* rgb(82, 100, 54) */
+#first li a{
+    color: black;
+}
+
+#second li a{
+    color: black;
+}
+
+#third a{
+    color: black;
+}
